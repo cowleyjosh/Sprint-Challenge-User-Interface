@@ -304,8 +304,9 @@ footer nav a {
 
 .aboutuppertext {
     width: 800px;
-    margin-left: 20px;
-    margin-bottom: 5px;       
+    padding-left: 20px;
+    margin-bottom: 5px; 
+    border-bottom: 1px dashed black;      
 }
 
 .aboutuppertext p {
@@ -317,8 +318,8 @@ footer nav a {
     display: flex;
     flex-direction: row;
     width: 800px;
-    border-top: 1px dashed black;
-    border-bottom: 1px dashed black;
+    
+    
 }
 
 .about-text {
@@ -326,6 +327,8 @@ footer nav a {
     margin-left: -10px;
 	padding: 20px;
     margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+    
 }
 
 .about-text h2 {
@@ -341,6 +344,7 @@ footer nav a {
     background: white;
     border: 2px solid black;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .lowertext {
